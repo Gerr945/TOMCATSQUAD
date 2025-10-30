@@ -406,7 +406,7 @@ if (!empty($_GET['q'])) {
                             TOMCAT SQUAD pertama kali didirikan pada tahun 2010 oleh Pak Guruh Wijarnako, S.T., Awalnya
                             ini bukanlah eskul, tetapi hanya sebuah perkumpulan para murid yang suka
                             menyalurkan bakatnya di bidang robotik, pemrograman, dan teknologi informasi. Nama TOMCAT
-                            SQUAD dipilih sebagai simbol semangat, ketangguhan, dan kerja sama tim.
+                            SQUAD terinspirasi dari pesawat tempur TOMCAT F16.
                         </p>
                     </div>
                 </div>
@@ -420,7 +420,7 @@ if (!empty($_GET['q'])) {
                         <div class="flex justify-between items-center mb-2">
                             <h3 class="font-bold text-lg text-blue-600">Perkembangan Awal</h3>
                             <span
-                                class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">2013</span>
+                                class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">2011</span>
                         </div>
                         <p class="text-gray-600">
                             Pada tahun ini TOMCAT SQUAD telah resmi menjadi eskul pilihan di sekolah. TOMCAT SQUAD turut
