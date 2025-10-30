@@ -603,7 +603,7 @@ if (!empty($_GET['q'])) {
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold mb-2">Apa Kata Mereka?</h2>
                 <p class="max-w-2xl mx-auto opacity-90">
-                    Testimoni dari alumni, ketua, para anggota dan pembina TOMCAT SQUAD.
+                    Testimoni dari pendiri, pembina, ketua, dan para anggota TOMCAT SQUAD.
                 </p>
             </div>
 
@@ -611,23 +611,40 @@ if (!empty($_GET['q'])) {
             <div class="overflow-x-auto pb-12 mt-6 custom-scrollbar">
                 <div class="flex space-x-16 min-w-max px-2 snap-x snap-mandatory scroll-smooth">
                     <!-- Testimonial 1 -->
-                    <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
+                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-07-30 at 18.49.02.jpeg"
+                            <img src="WhatsApp Image 2025-10-30 at 18.27.05.jpeg"
                                 alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
-                                <h4 class="font-bold">Muhammad Bilrizki</h4>
-                                <p class="text-sm opacity-80">Alumni TOMCAT SQUAD 2025</p>
+                                <h4 class="font-bold">Guruh Wijarnako, S.T.</h4>
+                                <p class="text-sm opacity-80">Pendiri TOMCAT SQUAD</p>
                             </div>
                         </div>
                         <p class="italic">
-                            "Bergabung dengan TOMCAT SQUAD adalah salah satu keputusan terbaik saya. Keterampilan yang
-                            saya pelajari di sini membuat saya mempunyai bekal pengalaman untuk kedepannya."
+                            "Kami mendirikan TOMCAT SQUAD bukan sekadar untuk belajar teknologi, tapi untuk menumbuhkan mental kreatif, 
+                            disiplin, dan kolaboratif. Kami ingin membuktikan bahwa anak muda mampu membangun sesuatu yang berdampak positif."
                         </p>
                     </div>
 
                     <!-- Testimonial 2 -->
+                    <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
+                        <div class="flex items-center mb-4">
+                            <img src="WhatsApp Image 2025-07-30 at 17.03.02.jpeg"
+                                alt="Potret Bu Mia Agustina Wahyuni, guru pembina TOMCAT SQUAD"
+                                class="w-12 h-12 rounded-full object-cover mr-4">
+                            <div>
+                                <h4 class="font-bold">Mia Agustina Wahyuni</h4>
+                                <p class="text-sm opacity-80">Guru Pembina TOMCAT SQUAD</p>
+                            </div>
+                        </div>
+                        <p class="italic">
+                            "Melihat perkembangan anak-anak dari tahun ke tahun sangat membanggakan. Mikrotik bukan
+                            hanya tentang teknologi, tapi juga kerja tim dan pemecahan masalah."
+                        </p>
+                    </div>
+
+                    <!-- Testimonial 3 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-07-30 at 17.02.56.jpeg"
@@ -639,13 +656,12 @@ if (!empty($_GET['q'])) {
                             </div>
                         </div>
                         <p class="italic">
-                            "Saya yang awalnya tidak tahu apa-apa tentang mikrotik, tetapi berkat TOMCAT SQUAD ini
-                            sekarang
-                            saya lebih banyak tahu dan lebih menguasai tentang mikrotik."
+                            "Menjadi bagian dari TOMCAT SQUAD adalah pengalaman luar biasa. Kami tumbuh bersama, belajar bersama, dan saling mendukung. 
+                            Di sinilah kami belajar arti keluarga dan perjuangan dalam mencapai mimpi."
                         </p>
                     </div>
 
-                    <!-- Testimonial 3 -->
+                    <!-- Testimonial 4 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-18 at 09.14.36.jpeg"
@@ -662,7 +678,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
-                    <!-- Testimonial 4 -->
+                    <!-- Testimonial 5 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-20 at 16.18.03.jpeg"
@@ -680,7 +696,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
-                    <!-- Testimonial 5 -->
+                    <!-- Testimonial 6 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-22 at 17.10.19.jpeg"
@@ -697,7 +713,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
-                    <!-- Testimonial 6 -->
+                    <!-- Testimonial 7 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-22 at 20.35.09.jpeg"
@@ -714,7 +730,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
-                    <!-- Testimonial 7 -->
+                    <!-- Testimonial 8 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-24 at 08.27.50.jpeg"
@@ -731,6 +747,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
+                    <!-- Testimonial 9 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-22 at 20.01.47.jpeg"
@@ -747,6 +764,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
+                    <!-- Testimonial 10 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-22 at 19.37.09.jpeg"
@@ -763,6 +781,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
+                    <!-- Testimonial 11 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-22 at 19.39.08.jpeg"
@@ -779,6 +798,7 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
+                    <!-- Testimonial 12 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
                             <img src="WhatsApp Image 2025-10-22 at 19.40.37.jpeg"
@@ -795,20 +815,37 @@ if (!empty($_GET['q'])) {
                         </p>
                     </div>
 
-                    <!-- Testimonial 8 -->
+                    <!-- Testimonial 13 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-07-30 at 17.03.02.jpeg"
-                                alt="Potret Bu Mia Agustina Wahyuni, guru pembina TOMCAT SQUAD"
+                            <img src="WhatsApp Image 2025-07-30 at 18.49.02.jpeg"
+                                alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
-                                <h4 class="font-bold">Mia Agustina Wahyuni</h4>
-                                <p class="text-sm opacity-80">Guru Pembina TOMCAT SQUAD</p>
+                                <h4 class="font-bold">Muhammad Bilrizki</h4>
+                                <p class="text-sm opacity-80">Alumni TOMCAT SQUAD 2025</p>
                             </div>
                         </div>
                         <p class="italic">
-                            "Melihat perkembangan anak-anak dari tahun ke tahun sangat membanggakan. Mikrotik bukan
-                            hanya tentang teknologi, tapi juga kerja tim dan pemecahan masalah."
+                            "Bergabung dengan TOMCAT SQUAD adalah salah satu keputusan terbaik saya. Keterampilan yang
+                            saya pelajari di sini membuat saya mempunyai bekal pengalaman untuk kedepannya."
+                        </p>
+                    </div>
+
+                    <!-- Testimonial 13 -->
+                    <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
+                        <div class="flex items-center mb-4">
+                            <img src="WhatsApp Image 2025-10-30 at 18.40.54.jpeg"
+                                alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
+                                class="w-12 h-12 rounded-full object-cover mr-4">
+                            <div>
+                                <h4 class="font-bold">Firas Abid Abiyanto</h4>
+                                <p class="text-sm opacity-80">Ketua TOMCAT SQUAD 2024</p>
+                            </div>
+                        </div>
+                        <p class="italic">
+                            "TOMCAT SQUAD bukan sekadar ekstrakurikuler, tapi wadah bagi kami untuk berkembang dan berinovasi. Saya percaya, 
+                            dengan semangat pantang menyerah, setiap anggota dapat menjadi pelopor perubahan di dunia teknologi."
                         </p>
                     </div>
                 </div>
