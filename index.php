@@ -25,7 +25,7 @@ if (!empty($_GET['q'])) {
     <style>
         .hero-section {
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('WhatsApp Image 2025-09-02 at 20.42.08.jpeg') no-repeat center center;
+                url('0.jpeg') no-repeat center center;
             background-size: cover;
             height: 70vh;
         }
@@ -75,8 +75,8 @@ if (!empty($_GET['q'])) {
     <nav class="bg-blue-600 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="#" class="flex items-center space-x-2">
-                <img src="WhatsApp Image 2025-07-30 at 14.10.26.jpeg"
-                    alt="gambar perkumpulan para anggota TOMCAT SQUAD dari angkatan lama sampai angkatan baru"
+                <img src="logo.jpeg"
+                    alt="logo tomcat squad"
                     class="h-10">
                 <span class="text-xl font-bold">TOMCAT SQUAD</span>
             </a>
@@ -185,7 +185,7 @@ if (!empty($_GET['q'])) {
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
-                    <img src="WhatsApp Image 2025-10-22 at 16.40.45.jpeg"
+                    <img src="2.jpeg"
                         alt="gambar kegiatan eskul TOMCAT SQUAD di laboratorium" class="rounded-lg shadow-xl w-full">
                 </div>
                 <div class="md:w-1/2">
@@ -315,7 +315,7 @@ if (!empty($_GET['q'])) {
                 <div
                     class="achievement-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition transform duration-300">
                     <div class="relative h-48 mb-4 rounded-lg overflow-hidden">
-                        <img src="WhatsApp Image 2025-09-02 at 15.58.21.jpeg"
+                        <img src="3.jpeg"
                             alt="gambar tempat sampah otomatis hasil karya siswa sedang ditempatkan di pameran sekolah"
                             class="w-full h-full object-cover">
                         <div
@@ -337,7 +337,7 @@ if (!empty($_GET['q'])) {
                 <div
                     class="achievement-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition transform duration-300">
                     <div class="relative h-48 mb-4 rounded-lg overflow-hidden">
-                        <img src="WhatsApp Image 2025-09-02 at 15.59.54.jpeg"
+                        <img src="4.jpeg"
                             alt="gambar tempat cuci tangan otomatis hasil karya siswa sedang ditempatkan di pameran sekolah"
                             class="w-full h-full object-cover">
                         <div
@@ -359,7 +359,7 @@ if (!empty($_GET['q'])) {
                 <div
                     class="achievement-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition transform duration-300">
                     <div class="relative h-48 mb-4 rounded-lg overflow-hidden">
-                        <img src="WhatsApp Image 2025-09-02 at 15.59.55.jpeg"
+                        <img src="5.jpeg"
                             alt="gambar pemberi makan kucing otomatis hasil karya siswa sedang ditempatkan di pameran sekolah"
                             class="w-full h-full object-cover">
                         <div
@@ -501,71 +501,71 @@ if (!empty($_GET['q'])) {
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <!-- EVENT -->
                 <div class="gallery-item event overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-09-02 at 20.37.55.jpeg" alt="Pelatihan robotika di laboratorium"
+                    <img src="6.jpeg" alt="gambar buka puasa bersama 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item event overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-09-02 at 20.37.54.jpeg" alt="Kegiatan workshop teknologi"
+                    <img src="7.jpeg" alt="gambar buka puasa bersama 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item event overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 13.19.01.jpeg" alt="Kegiatan workshop teknologi"
+                    <img src="8.jpeg" alt="gambar buka puasa bersama 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item event overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-09-02 at 20.37.23.jpeg" alt="Kegiatan workshop teknologi"
+                    <img src="9.jpeg" alt="gambar buka puasa bersama 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
 
                 <!-- PAMERAN -->
                 <div class="gallery-item lomba overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 16.37.06.jpeg" alt="Tim mengikuti kompetisi robotik"
+                    <img src="10.jpeg" alt="gambar alat di pameran sekolah"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item lomba overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 16.37.04.jpeg" alt="Presentasi proyek di depan juri"
+                    <img src="11.jpeg" alt="gambar alat di pameran sekolah"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item lomba overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 16.37.03.jpeg" alt="Penerimaan penghargaan lomba"
+                    <img src="12.jpeg" alt="Pgambar alat di pameran sekolah"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item lomba overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 16.37.04 (1).jpeg" alt="Penerimaan penghargaan lomba"
+                    <img src="13.jpeg" alt="gambar alat di pameran sekolah"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
 
                 <!-- EKSUL -->
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-15 at 14.01.58.jpeg" alt="Kelas dasar robotika"
+                    <img src="14.jpeg" alt="gambar para anggota eskul kelas 10 2025"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-15 at 13.56.23 (2).jpeg" alt="Robot tangan servo di ruang praktik"
+                    <img src="15.jpeg" alt="gambar para anggota eskul kelas 12 2025"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-15 at 13.56.23.jpeg" alt="Kunjungan industri"
+                    <img src="16.jpeg" alt="gambar para anggota eskul kelas 12 2025"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-09-02 at 20.38.23.jpeg" alt="Kunjungan industri"
+                    <img src="17.jpeg" alt="gambar para anggota eskul kelas 11 2025"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 13.18.23.jpeg" alt="Kunjungan industri"
+                    <img src="18.jpeg" alt="gambar para anggota eskul kelas 10-12 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 13.18.20.jpeg" alt="Kunjungan industri"
+                    <img src="19.jpeg" alt="gambar para anggota eskul kelas 10-12 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 13.18.19.jpeg" alt="Kunjungan industri"
+                    <img src="20.jpeg" alt="gambar para anggota eskul kelas 10-12 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
                 <div class="gallery-item eskul overflow-hidden rounded-lg shadow-md hover:shadow-xl transition">
-                    <img src="WhatsApp Image 2025-10-22 at 13.18.13.jpeg" alt="Kunjungan industri"
+                    <img src="21.jpeg" alt="gambar para anggota eskul kelas 10-12 2024"
                         class="w-full h-48 object-cover hover:scale-105 transition">
                 </div>
             </div>
@@ -613,8 +613,8 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 1 -->
                      <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-30 at 18.27.05.jpeg"
-                                alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
+                            <img src="22.jpeg"
+                                alt="Potret Guruh Wijarnako, S.T., pendiri TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Guruh Wijarnako, S.T.</h4>
@@ -630,7 +630,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 2 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-07-30 at 17.03.02.jpeg"
+                            <img src="23.jpeg"
                                 alt="Potret Bu Mia Agustina Wahyuni, guru pembina TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -647,7 +647,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 3 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-07-30 at 17.02.56.jpeg"
+                            <img src="24.jpeg"
                                 alt="Potret Tri Hadi Surya Ardito, ketua TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -664,7 +664,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 4 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-18 at 09.14.36.jpeg"
+                            <img src="25.jpeg"
                                 alt="Potret Abrar Fajrianto, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -681,12 +681,12 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 5 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-20 at 16.18.03.jpeg"
+                            <img src="26.jpeg"
                                 alt="Potret Ahmad Zaidan Rizky H., alumni TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Ahmad Zaidan Rizky H.</h4>
-                                <p class="text-sm opacity-80">Alumni TOMCAT SQUAD 2025</p>
+                                <p class="text-sm opacity-80">Alumni TOMCAT SQUAD</p>
                             </div>
                         </div>
                         <p class="italic">
@@ -699,12 +699,12 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 6 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-22 at 17.10.19.jpeg"
+                            <img src="27.jpeg"
                                 alt="Potret Noeraliyah Syarifah Hidayat, bendahara TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Noeraliyah Syarifah H.</h4>
-                                <p class="text-sm opacity-80">Bendahara TOMCAT SQUAD 2025</p>
+                                <p class="text-sm opacity-80">Bendahara TOMCAT SQUAD</p>
                             </div>
                         </div>
                         <p class="italic">
@@ -716,7 +716,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 7 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-22 at 20.35.09.jpeg"
+                            <img src="28.jpeg"
                                 alt="Potret M. Labieb Furqon Giyanta, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -733,12 +733,12 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 8 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-24 at 08.27.50.jpeg"
+                            <img src="29.jpeg"
                                 alt="Potret Rafa, anggota aktif yang sedang memegang robot karyanya"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Geronimo Estrada R.</h4>
-                                <p class="text-sm opacity-80">Anggota TOMCAT SQUAD 2025</p>
+                                <p class="text-sm opacity-80">Anggota TOMCAT SQUAD</p>
                             </div>
                         </div>
                         <p class="italic">
@@ -750,7 +750,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 9 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-22 at 20.01.47.jpeg"
+                            <img src="30.jpeg"
                                 alt="Potret Ahmad Habil Alfakhri, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -767,7 +767,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 10 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-22 at 19.37.09.jpeg"
+                            <img src="31.jpeg"
                                 alt="Potret Baihaqi Muhammad Al Ghifari, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -784,7 +784,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 11 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-22 at 19.39.08.jpeg"
+                            <img src="32.jpeg"
                                 alt="Potret Panji Hadi Kusumo, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -801,7 +801,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 12 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-22 at 19.40.37.jpeg"
+                            <img src="33.jpeg"
                                 alt="Potret Abdul Rafi Maulana, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
@@ -818,12 +818,12 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 13 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-07-30 at 18.49.02.jpeg"
+                            <img src="34.jpeg"
                                 alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Muhammad Bilrizki</h4>
-                                <p class="text-sm opacity-80">Alumni TOMCAT SQUAD 2025</p>
+                                <p class="text-sm opacity-80">Alumni TOMCAT SQUAD</p>
                             </div>
                         </div>
                         <p class="italic">
@@ -835,12 +835,12 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 13 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="WhatsApp Image 2025-10-30 at 18.40.54.jpeg"
-                                alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
+                            <img src="35.jpeg"
+                                alt="Potret Firas Abid Abiyanto, anggota TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Firas Abid Abiyanto</h4>
-                                <p class="text-sm opacity-80">Ketua TOMCAT SQUAD 2024</p>
+                                <p class="text-sm opacity-80">Mantan Ketua TOMCAT SQUAD</p>
                             </div>
                         </div>
                         <p class="italic">
@@ -1159,7 +1159,7 @@ if (!empty($_GET['q'])) {
                         </a>
                     </div>
                     <div class="mt-6">
-                        <img src="WhatsApp Image 2025-07-30 at 14.10.26.jpeg"
+                        <img src="logo.jpeg"
                             alt="Logo Sekolah Kita dengan tulisan nama sekolah menggunakan font modern" class="h-10">
                     </div>
                 </div>
