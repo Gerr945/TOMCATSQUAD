@@ -75,9 +75,7 @@ if (!empty($_GET['q'])) {
     <nav class="bg-blue-600 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="#" class="flex items-center space-x-2">
-                <img src="logo.jpeg"
-                    alt="logo tomcat squad"
-                    class="h-10">
+                <img src="logo.jpeg" alt="logo tomcat squad" class="h-10">
                 <span class="text-xl font-bold">TOMCAT SQUAD</span>
             </a>
 
@@ -93,6 +91,7 @@ if (!empty($_GET['q'])) {
                 <a href="#program" class="hover:text-blue-200 transition">Program</a>
                 <a href="#achievement" class="hover:text-blue-200 transition">Karya</a>
                 <a href="#history" class="hover:text-blue-200 transition">Sejarah</a>
+                <a href="#berita" class="hover:text-blue-200 transition">Berita</a>
                 <a href="#gallery" class="hover:text-blue-200 transition">Galeri</a>
                 <a href="#testimoni" class="hover:text-blue-200 transition">Testimoni</a>
                 <a href="#contact" class="hover:text-blue-200 transition">Kontak</a>
@@ -112,6 +111,7 @@ if (!empty($_GET['q'])) {
                 <a href="#program" class="block py-2 hover:text-blue-200 transition">Program</a>
                 <a href="#achievement" class="block py-2 hover:text-blue-200 transition">Karya</a>
                 <a href="#history" class="block py-2 hover:text-blue-200 transition">Sejarah</a>
+                <a href="#berita" class="block py-2 hover:text-blue-200 transition">Berita</a>
                 <a href="#gallery" class="block py-2 hover:text-blue-200 transition">Galeri</a>
                 <a href="#testimoni" class="block py-2 hover:text-blue-200 transition">Testimoni</a>
                 <a href="#contact" class="block py-2 hover:text-blue-200 transition">Kontak</a>
@@ -185,8 +185,8 @@ if (!empty($_GET['q'])) {
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
-                    <img src="2.jpeg"
-                        alt="gambar kegiatan eskul TOMCAT SQUAD di laboratorium" class="rounded-lg shadow-xl w-full">
+                    <img src="2.jpeg" alt="gambar kegiatan eskul TOMCAT SQUAD di laboratorium"
+                        class="rounded-lg shadow-xl w-full">
                 </div>
                 <div class="md:w-1/2">
                     <h2 class="text-3xl font-bold text-gray-800 mb-6">Tentang TOMCAT SQUAD</h2>
@@ -463,11 +463,31 @@ if (!empty($_GET['q'])) {
                                 class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">2025</span>
                         </div>
                         <p class="text-gray-600">
-                            Saat ini TOMCAT SQUAD aktif dalam kegiatan eskul, pembuatan project, 
+                            Saat ini TOMCAT SQUAD aktif dalam kegiatan eskul, pembuatan project,
                             dan ikut serta dalam kegiatan pameran yang diadakan di sekolah.
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-blue-600" id="berita">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white mb-2">
+                    Berita & Artikel
+                </h2>
+                <p class="text-blue-100 max-w-2xl mx-auto">
+                    Berita & Artikel terbaru seputar kegiatan dan informasi dari TOMCAT SQUAD.
+                </p>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="halaman/berita.php" class="bg-white text-blue-600 hover:bg-blue-100
+                      px-8 py-3 rounded-full font-semibold transition inline-block">
+                    Lihat Berita
+                </a>
             </div>
         </div>
     </section>
@@ -611,10 +631,9 @@ if (!empty($_GET['q'])) {
             <div class="overflow-x-auto pb-12 mt-6 custom-scrollbar">
                 <div class="flex space-x-16 min-w-max px-2 snap-x snap-mandatory scroll-smooth">
                     <!-- Testimonial 1 -->
-                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
+                    <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="22.jpeg"
-                                alt="Potret Guruh Wijarnako, S.T., pendiri TOMCAT SQUAD 2025"
+                            <img src="22.jpeg" alt="Potret Guruh Wijarnako, S.T., pendiri TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Guruh Wijarnako, S.T.</h4>
@@ -622,16 +641,17 @@ if (!empty($_GET['q'])) {
                             </div>
                         </div>
                         <p class="italic">
-                            "Kami mendirikan TOMCAT SQUAD bukan sekadar untuk belajar teknologi, tapi untuk menumbuhkan mental kreatif, 
-                            disiplin, dan kolaboratif. Kami ingin membuktikan bahwa anak muda mampu membangun sesuatu yang berdampak positif."
+                            "Kami mendirikan TOMCAT SQUAD bukan sekadar untuk belajar teknologi, tapi untuk menumbuhkan
+                            mental kreatif,
+                            disiplin, dan kolaboratif. Kami ingin membuktikan bahwa anak muda mampu membangun sesuatu
+                            yang berdampak positif."
                         </p>
                     </div>
 
                     <!-- Testimonial 2 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="23.jpeg"
-                                alt="Potret Bu Mia Agustina Wahyuni, guru pembina TOMCAT SQUAD"
+                            <img src="23.jpeg" alt="Potret Bu Mia Agustina Wahyuni, guru pembina TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Mia Agustina Wahyuni</h4>
@@ -647,8 +667,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 3 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="24.jpeg"
-                                alt="Potret Tri Hadi Surya Ardito, ketua TOMCAT SQUAD 2025"
+                            <img src="24.jpeg" alt="Potret Tri Hadi Surya Ardito, ketua TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Tri Hadi Surya Ardito</h4>
@@ -656,7 +675,8 @@ if (!empty($_GET['q'])) {
                             </div>
                         </div>
                         <p class="italic">
-                            "Menjadi bagian dari TOMCAT SQUAD adalah pengalaman luar biasa. Kami tumbuh bersama, belajar bersama, dan saling mendukung. 
+                            "Menjadi bagian dari TOMCAT SQUAD adalah pengalaman luar biasa. Kami tumbuh bersama, belajar
+                            bersama, dan saling mendukung.
                             Di sinilah kami belajar arti keluarga dan perjuangan dalam mencapai mimpi."
                         </p>
                     </div>
@@ -664,8 +684,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 4 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="25.jpeg"
-                                alt="Potret Abrar Fajrianto, anggota TOMCAT SQUAD"
+                            <img src="25.jpeg" alt="Potret Abrar Fajrianto, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Abrar Fajrianto</h4>
@@ -681,8 +700,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 5 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="26.jpeg"
-                                alt="Potret Ahmad Zaidan Rizky H., alumni TOMCAT SQUAD 2025"
+                            <img src="26.jpeg" alt="Potret Ahmad Zaidan Rizky H., alumni TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Ahmad Zaidan Rizky H.</h4>
@@ -699,8 +717,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 6 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="27.jpeg"
-                                alt="Potret Noeraliyah Syarifah Hidayat, bendahara TOMCAT SQUAD"
+                            <img src="27.jpeg" alt="Potret Noeraliyah Syarifah Hidayat, bendahara TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Noeraliyah Syarifah H.</h4>
@@ -716,8 +733,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 7 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="28.jpeg"
-                                alt="Potret M. Labieb Furqon Giyanta, anggota TOMCAT SQUAD"
+                            <img src="28.jpeg" alt="Potret M. Labieb Furqon Giyanta, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">M. Labieb Furqon Giyanta</h4>
@@ -725,7 +741,7 @@ if (!empty($_GET['q'])) {
                             </div>
                         </div>
                         <p class="italic">
-                            "Ekskul ini benar-benar membuka peluang bagi siswa yang ingin mendalami dunia IT. 
+                            "Ekskul ini benar-benar membuka peluang bagi siswa yang ingin mendalami dunia IT.
                             Belajar di sini itu seru, bermanfaat, dan penuh semangat."
                         </p>
                     </div>
@@ -733,8 +749,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 8 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="29.jpeg"
-                                alt="Potret Rafa, anggota aktif yang sedang memegang robot karyanya"
+                            <img src="29.jpeg" alt="Potret Rafa, anggota aktif yang sedang memegang robot karyanya"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Geronimo Estrada R.</h4>
@@ -742,7 +757,8 @@ if (!empty($_GET['q'])) {
                             </div>
                         </div>
                         <p class="italic">
-                            "Saya bangga bisa menjadi bagian dari TOMCAT SQUAD. Banyak pengalaman berharga yang saya dapat, 
+                            "Saya bangga bisa menjadi bagian dari TOMCAT SQUAD. Banyak pengalaman berharga yang saya
+                            dapat,
                             terutama tentang kerja tim dan tanggung jawab."
                         </p>
                     </div>
@@ -750,8 +766,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 9 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="30.jpeg"
-                                alt="Potret Ahmad Habil Alfakhri, anggota TOMCAT SQUAD"
+                            <img src="30.jpeg" alt="Potret Ahmad Habil Alfakhri, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Ahmad Habil Alfakhri</h4>
@@ -767,8 +782,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 10 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="31.jpeg"
-                                alt="Potret Baihaqi Muhammad Al Ghifari, anggota TOMCAT SQUAD"
+                            <img src="31.jpeg" alt="Potret Baihaqi Muhammad Al Ghifari, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Baihaqi M. Al Ghifari</h4>
@@ -784,8 +798,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 11 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="32.jpeg"
-                                alt="Potret Panji Hadi Kusumo, anggota TOMCAT SQUAD"
+                            <img src="32.jpeg" alt="Potret Panji Hadi Kusumo, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Panji Hadi Kusumo</h4>
@@ -801,8 +814,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 12 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="33.jpeg"
-                                alt="Potret Abdul Rafi Maulana, anggota TOMCAT SQUAD"
+                            <img src="33.jpeg" alt="Potret Abdul Rafi Maulana, anggota TOMCAT SQUAD"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Abdul Rafi Maulana</h4>
@@ -818,8 +830,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 13 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="34.jpeg"
-                                alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
+                            <img src="34.jpeg" alt="Potret Muhammad Bilrizki, alumni TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Muhammad Bilrizki</h4>
@@ -835,8 +846,7 @@ if (!empty($_GET['q'])) {
                     <!-- Testimonial 13 -->
                     <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm flex-shrink-0 w-80 snap-center">
                         <div class="flex items-center mb-4">
-                            <img src="35.jpeg"
-                                alt="Potret Firas Abid Abiyanto, anggota TOMCAT SQUAD 2025"
+                            <img src="35.jpeg" alt="Potret Firas Abid Abiyanto, anggota TOMCAT SQUAD 2025"
                                 class="w-12 h-12 rounded-full object-cover mr-4">
                             <div>
                                 <h4 class="font-bold">Firas Abid Abiyanto</h4>
@@ -844,8 +854,10 @@ if (!empty($_GET['q'])) {
                             </div>
                         </div>
                         <p class="italic">
-                            "TOMCAT SQUAD bukan sekadar ekstrakurikuler, tapi wadah bagi kami untuk berkembang dan berinovasi. Saya percaya, 
-                            dengan semangat pantang menyerah, setiap anggota dapat menjadi pelopor perubahan di dunia teknologi."
+                            "TOMCAT SQUAD bukan sekadar ekstrakurikuler, tapi wadah bagi kami untuk berkembang dan
+                            berinovasi. Saya percaya,
+                            dengan semangat pantang menyerah, setiap anggota dapat menjadi pelopor perubahan di dunia
+                            teknologi."
                         </p>
                     </div>
                 </div>
@@ -1159,8 +1171,8 @@ if (!empty($_GET['q'])) {
                         </a>
                     </div>
                     <div class="mt-6">
-                        <img src="logo.jpeg"
-                            alt="Logo Sekolah Kita dengan tulisan nama sekolah menggunakan font modern" class="h-10">
+                        <img src="logo.jpeg" alt="Logo Sekolah Kita dengan tulisan nama sekolah menggunakan font modern"
+                            class="h-10">
                     </div>
                 </div>
             </div>

@@ -1,0 +1,58 @@
+<?php
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/config.php';
+
+use Dompdf\Dompdf;
+
+// Ambil data formulir
+$result = $conn->query("SELECT * FROM formulir ORDER BY tanggal DESC");
+
+$html = '
+<style>
+body { font-family: Arial, sans-serif; }
+h2 { text-align: center; margin-bottom: 20px; }
+table { width: 100%; border-collapse: collapse; font-size: 11px; }
+th, td { border: 1px solid #000; padding: 6px; }
+th { background-color: #f0f0f0; }
+</style>
+
+<h2>Data Pendaftaran Eskul TOMCAT SQUAD</h2>
+
+<table>
+<tr>
+    <th>No</th>
+    <th>Nama</th>
+    <th>Email</th>
+    <th>Telepon</th>
+    <th>Jenjang</th>
+    <th>Jurusan</th>
+    <th>Kelas</th>
+    <th>Program</th>
+    <th>Tanggal</th>
+</tr>
+';
+
+$no = 1;
+while ($row = $result->fetch_assoc()) {
+    $html .= '
+    <tr>
+        <td>'.$no++.'</td>
+        <td>'.htmlspecialchars($row['nama']).'</td>
+        <td>'.htmlspecialchars($row['email']).'</td>
+        <td>'.$row['telepon'].'</td>
+        <td>'.$row['jenjang'].'</td>
+        <td>'.$row['jurusan'].'</td>
+        <td>'.$row['kelas'].'</td>
+        <td>'.$row['program'].'</td>
+        <td>'.$row['tanggal'].'</td>
+    </tr>
+    ';
+}
+
+$html .= '</table>';
+
+$dompdf = new Dompdf();
+$dompdf->loadHtml($html);
+$dompdf->setPaper('A4', 'landscape');
+$dompdf->render();
+$dompdf->stream("data_formulir_eskul.pdf", ["Attachment" => true]);

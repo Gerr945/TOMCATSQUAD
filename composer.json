@@ -1,0 +1,13 @@
+{
+    "name": "tomcat/kerja-project",
+    "description": "Export PDF Formulir",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geronimo"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
